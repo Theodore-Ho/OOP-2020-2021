@@ -2,7 +2,7 @@ package ie.tudublin;
 
 public class Main
 {
-    public void catsAndDogs()
+    public static void main(String[] args)
     {
         System.out.println("Hello world");
 
@@ -31,40 +31,5 @@ public class Main
             ginger.kill();
         }
         ginger.kill();
-    }
-
-    public void helloProcessing1()
-    {
-        String[] a = {"MAIN"};
-        processing.core.PApplet.runSketch( a, new HelloProcessing1());
-    }
-
-    public void helloProcessing2()
-    {
-        String[] a = {"MAIN"};
-        processing.core.PApplet.runSketch( a, new HelloProcessing2());
-    }
-
-    public void bugZap()
-    {
-        String[] a = {"MAIN"};
-        processing.core.PApplet.runSketch( a, new BugZap());
-    }
-
-    public void loops()
-    {
-        String[] a = {"MAIN"};
-        processing.core.PApplet.runSketch( a, new Loops());
-    }
-
-    public void arrays()
-    {
-        String[] a = {"MAIN"};
-        processing.core.PApplet.runSketch( a, new Arrays());
-    }
-    public static void main(String[] args)
-    {
-        Main main = new Main();
-        main.arrays();
     }
 } 
